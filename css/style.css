@@ -7,7 +7,11 @@
 header {
     background-color: lightgray;
     height: 80px;
+    width: 100%;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav li{
@@ -20,4 +24,13 @@ nav li{
 
 .logo img{
     vertical-align: middle;
+}
+
+main{
+    margin-top: 100px;
+    padding: 0 2rem;
+}
+
+p{
+    margin: 1rem 0 ;
 }
